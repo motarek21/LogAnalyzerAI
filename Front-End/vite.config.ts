@@ -15,7 +15,6 @@ export default defineConfig(({ mode }) => ({
       strict: false
     }
   },
-  base: '/LogAnalyzerAI/', // ✅ تعديل مهم لنشر GitHub Pages
   plugins: [
     react(),
     mode === 'development' &&
