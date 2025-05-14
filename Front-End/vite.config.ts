@@ -15,6 +15,7 @@ export default defineConfig(({ mode }) => ({
       strict: false
     }
   },
+  base: '/LogAnalyzerAI/', 
   plugins: [
     react(),
     mode === 'development' &&
